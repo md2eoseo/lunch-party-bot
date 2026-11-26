@@ -1,0 +1,16 @@
+{
+  "name": "lunch-party-bot",
+  "version": "1.0.0",
+  "description": "슬랙에서 점심 식사 파티를 모집하는 봇",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@slack/bolt": "^4.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
